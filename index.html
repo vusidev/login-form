@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form page</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link type="text/css" rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="container">
+<div class="button1">
+<input type="submit" value="Create Account">
+</div>
+
+<form action="method="get" name="checkform" onsubmit="return validate()">
+<div class="row">
+<div class="form-check error">
+<label>Username</label><br>
+<input type="text"placeholder="Enter your username" id="username" required>
+<br><br>
+
+<label>Password</label><br>
+<input type="text"placeholder="Enter your password" id="password" required>
+</div><br><br>
+
+<div class="button2">
+<input type="submit" value="Login" onclick="return validate()">
+</div><br>
+
+<a href="">Forgotten password?</a><br><br>
+</form>
+</div>
+<script type="text/javascript" src="form.js">
+</script>
+</body>
+</html>
